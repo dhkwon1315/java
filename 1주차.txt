@@ -1,0 +1,81 @@
+Web2
+ 
+데이터 타입
+
+java script data type
+MDN
+- 문자열
+
+
+- 숫자
+
+
+- 개발자 도구 Console
+
+숫자
+- alert(1);
+- alert(1+1);
+- 1+1
+더하기: 이항연산자, 산술연산자
+- 2-1
+- 2*4
+- 4/2
+
+문자
+- "hello world" or 'hello world'
+- 'hello world'.length
+- javascript string
+MDN 
+length --> properties
+
+'Hello world'.toUpperCase()
+'Hello world'.indexOf('0')
+'                 hello'.trim()
+1 vs. '1'
+"1"+"1" /"11"
+
+* 변수와 대입 연산자
+변수는 바뀔수 있는 어떤 값
+x =1 
+y = 1
+x+y = 2
+x = 1000
+x+y = 1001
+x = variable
+= --> 대입연산자 오른쪽을 윈쪽에 대입
+좌항과 우항의 값을 결합해서 우항의 값을 만들어낸다.
+1 = 2; --> 에러
+1 , 2 --> 상수 constant
+
+변수를 왜 사용하는가?
+"Lorem ipsum dolor sit amet, consectetur adiopiscing elit, kwon, aliquma tincidunt, kwon"
+
+alert("Lorem ipsum dolor sit amet, consectetur adiopiscing elit, kwon, aliquma tincidunt, kwon")
+
+일괄적인 이름 변경
+
+name = "kwon";
+엔터 유보 shift+enter
+alert("Lorem ipsum dolor sit amet, consectetur adiopiscing elit, "+name+", aliquma tincidunt, "+name+"")
+
+var name = "kwon";
+엔터 유보 shift+enter
+alert("Lorem ipsum dolor sit amet, consectetur adiopiscing elit, "+name+", aliquma tincidunt, "+name+"")
+
+웹브라우저 제어
+
+<body style = "background-color:black; color:white;">
+html은 정적 언어이다.
+
+배경색변화는 css에 의해 변화된 것이다. 
+
+1. css
+
+<h2 style = "color:powederblue">Javascript</h2> 
+color:powerderblue --> property
+
+css background color property W3school
+
+<h2 style = "background-color:coral;color:powederblue">Javascript</h2> 
+
+2. java를 이용하여 taq를 선택하는 방법

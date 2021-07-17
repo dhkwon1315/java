@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 대입연산자(=), 동등연산자(==), 일치연산자(===)
+        
+        alert(1==2)             //false
+        alert(1==1)             //true
+        alert("one"=="two")     //false 
+        alert("one"=="one")     //true
+
+        alert(1=='1');              //true
+        alert(1==='1');             //false
+
+        
+        var a;
+        아직 정의내리지 앟은 상태, undefined
+        값을 넣지 않기로 결정된 상태, null
+
+        alert(null == undefined);       //true
+        alert(null === undefined);      //false
+        alert(true == 1);               //true
+        alert(true === 1);              //false
+        alert(true == '1');             //true
+        alert(true === '1');            //false
+        
+        alert(0 === -0);                //true
+        alert(NaN === NaN);             //false
+
+        alert(1!=2);            //true
+        alert(1!=1);            //false
+        alert("one"!="two");    //true
+        alert("one"!="one");    //false
+
+        alert(10>20);   //false
+        alert(10>1);    //true
+        alert(10>10);   //false
+
+        alert(10>=20);      //false
+        alert(10>=1);       //true
+        alert(10>=10);      //true
+
+        // http://dorey.github.io/JavaScript-Equality-Table/
+
+    </script>
+    
+</body>
+</html>

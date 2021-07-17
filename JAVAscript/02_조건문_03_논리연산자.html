@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // if(true&&true){
+        //     alert('작동합니다.')
+        // } else{
+        //     alert('작동하지 않습니다.')
+        // }
+
+        id = prompt('아이디를 입력해주세요.');
+        password = prompt('비밀번호를 입력해주세요.');
+        if(id=='kwon'&&password=='1111'){
+            alert('인증했습니다.');
+        }else{
+            alert('인증에 실패했습니다.')
+        }
+
+        // if(true||true){
+        //     alert('작동합니다.')
+        // } else{
+        //     alert('작동하지 않습니다.')
+        // }
+
+        id = prompt('아이디를 입력해주세요.');
+        if(id==='kwon' || id==='k8805' || id==='sorialgi'){
+            alert('인증했습니다.');
+        } else {
+            alert('인증에 실패했습니다.');
+        }
+
+        id = prompt('아이디를 입력해주세요.');
+        password = prompt('비밀번호를 입력해주세요.');
+        if((id=='kwon'||id=='kwon7'||id=='sorialgi')&&password=='1111'){
+            alert('인증했습니다.');
+        }else{
+            alert('인증에 실패했습니다.')
+        }
+
+        if(!true&&!true){
+            alert('4')
+        }
+
+        // boolean의 대체제: 일반적으로 0은 false, 이외의 값은 true
+        if(0){
+            alert(1)
+        }
+        if(1){
+            alert(2)
+        }
+
+
+        
+    </script>
+
+    
+</body>
+</html>
